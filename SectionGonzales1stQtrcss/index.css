@@ -1,0 +1,186 @@
+nav > ul {
+  list-style-type: none;
+  background-color: #a34100;
+  padding: 0;
+  width: 120%;
+  top: 0;
+  margin: -7px -27px 0 -30px;
+  overflow: hidden;
+  position: fixed;
+}
+
+nav > ul > li > a {
+  float: left;
+  color: white;
+  position: relative; 
+  padding: 10px;
+}
+
+.current {
+  background-color: orange;
+}
+
+nav:link {
+  background-color: #a34100;
+}
+
+nav > ul > li > a:hover {
+  background-color: black;
+}
+
+nav > ul > li > a:active {
+  background-color: orange;
+}
+
+body {
+  background-color: #feeb75;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 80px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: orange;
+}
+
+::-webkit-scrollbar-thumb {
+  background: black;
+}
+
+h1 {
+  padding: 30px;
+  background: orange;
+  font-family: 'Times New Roman', serif;
+  color: black;
+  font-size: 33px;
+  font-weight: 1000;
+  text-align: center;
+}
+.top h2 {
+  font-family: Verdana, Sans-serif;
+  font-weight: 700;
+  color: #a34100;
+}
+.top p {
+  font-family: sans-serif;
+  color: #cc5500
+}
+.top img {
+  box-shadow: 18px 19px 0px -5px rgba(255,154,0,0.84);
+  webkit-box-shadow: 18px 19px 0px -5px rgba(255,154,0,0.84);
+  moz-box-shadow: 18px 19px 0px -5px rgba(255,154,0,0.84);
+  border: 1px solid orange;
+  float: left;
+  margin: 0px 30px 10px 0px;
+  height: 200px; 
+  width: 240px;
+}
+
+section > .info > iframe {
+  height: 560px;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background: orange;
+  margin-left: -10px;
+}
+
+.info #butter {
+  text-align: center;
+  font-weight: bold;
+}
+
+.info #bangtan {
+  text-align: center;
+  font-size: 17px;
+  color: #cc5500;
+}
+
+.info #bangtan > a{
+  color: black;
+}
+
+hr {
+  border-top: 2px dashed orange;
+  border-bottom: 2px dashed orange;
+}
+.mem {
+  height: 700px;
+  font-family: cursive;
+}
+.mem > #rap{
+  float: left;
+  box-sizing: content-box;
+  width: 50%;
+  background: orange;
+}
+
+.mem > #vocal{
+  float: right;
+  width: 50%;
+  background: orange;
+}
+
+aside > #logo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+#link {
+  clear: right;
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  color: #a34100;
+}
+
+#sources {
+  clear: right;
+  color: white;
+  background: orange;
+  display: block;
+  float: left;
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 10px;
+  margin: 2px;
+  padding: 5px;
+  border:2px dotted white;
+
+}
+
+#foot {
+  clear: right;
+  clear: left;
+  background-color: #a34100;
+  bottom: 0;
+  margin: 0 -28px -8px -30px;
+  overflow: hidden;
+}
+
+#foot > h3 {
+  clear: right;
+  clear: left;
+  text-align: center;
+  color: white;
+  position: relative;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px;
+  display: inline-block;
+}
+
+#foot > a {
+  clear: right;
+  display: inline-block;
+  padding: 5px;
+  float: left;
+  color: white;
+  position: relative; 
+  font-size: 10px;
+  text-align: center;
+}

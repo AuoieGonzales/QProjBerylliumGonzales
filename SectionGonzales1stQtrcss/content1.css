@@ -1,0 +1,330 @@
+body {
+  background-color: #d0bdf0;
+  padding: 20px;
+  margin-top: 50px;
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  border: 2px solid white;
+}
+      
+::-webkit-scrollbar-track {
+  background: #9966cc;
+}
+      
+::-webkit-scrollbar-thumb {
+  background: white;
+}
+
+nav > ul {
+  list-style-type: none;
+  background-color: purple;
+  padding: 0;
+  width: 105%;
+  top: 0;
+  margin: 0 0 -10px -33px;
+  overflow: hidden;
+  position: fixed;
+}
+      
+nav > ul > li > a {
+  float: left;
+  color: white;
+  position: relative;
+  padding: 10px;
+}
+
+.current {
+  background-color: #9966cc;
+}
+
+nav > ul > li > a:link {
+  background-color: purple;
+}
+
+nav > ul > li > a:hover {
+  background-color: black;
+}
+
+nav > ul > li > a:active {
+  background-color: #9966cc;
+}
+
+body > h1 {
+  font-family: Verdana, Sans-serif;
+  font-size: 30px;
+  color: white;
+  padding: 30px;
+  background-color: #9966cc;
+  text-align: center;
+}
+
+section > iframe {
+  box-shadow: 18px 19px 0px -5px purple;
+  webkit-box-shadow: 18px 19px 0px -5px purple;
+  moz-box-shadow: 18px 19px 0px -5px purple;
+  height: 540px;
+  width: 100%;
+}
+
+
+.a{
+  padding: 10px;
+  background-color: #9966cc;
+  border: 2px dashed white;
+  border-radius: 20px;
+}
+
+.a h2{
+  float: left;
+  font-family: sans-serif;
+  font-size: 30px;
+  color: white;
+  padding: 30px;
+  background-color: purple;
+  margin: 10px 10px 5px 10px;
+}
+
+.a p {
+  font-family: arial;
+  color: white;
+  font-size: 14px;
+}
+
+.b {
+  margin-top: 30px;
+  border: 3px double purple;
+  padding: 3px;
+}
+
+.b h2{
+  padding: 30px 50px 30px 50px;
+  background-color: #9966cc;
+  color: white;
+  font-family: sans-serif;
+  font-size: 30px;
+  float: right;
+  margin: -6px -6px 0 10px;
+}
+
+.b p {
+  font-family: arial;
+  color: black;
+  font-size: 14px;
+  text-align: right;
+}
+
+.c {
+  padding: 10px;
+  background-color: purple;
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+.c img {
+  float: left;
+  height: 150px;
+  width: 200px;
+  margin: 0 10px 0 0;
+}
+
+.c h2 {
+  font-family: sans-serif;
+  font-size: 30px;
+  color: #d0bdf0;
+  margin-bottom: -15px;
+  margin-top: -5px;
+}
+      
+.c p {
+  font-family: arial;
+  color: white;
+  font-size: 14px;
+}
+
+.d h2 {
+  float: right;
+  padding: 10px 30px 10px 30px;
+  background-color: #9966cc;
+  border: 2px dashed white;
+  border-radius: 20px;
+  margin: 0 0 0 10px;
+}
+
+.d p {
+  font-family: cursive;
+  color: black;
+  font-size: 15px;
+  text-align: right; 
+  border-left: 3px double white;  
+  padding-left: 10px;
+  border-bottom: 3px double white;  
+  padding-bottom: 10px;   
+}
+
+.e {
+  padding: 10px;
+  overflow: hidden;
+}  
+
+.e h2 {
+  text-align: center;
+  padding: 10px 30px 10px 30px;
+  background-color: #9966cc;
+  border: 2px dashed white;
+  border-radius: 20px;
+  color: white;
+}
+
+.e img {
+  float: left;
+  height: 150px;
+  width: 300px;
+  margin: 0 10px 0 0;
+}
+
+.e p {
+  text-align: left;
+  padding-right: 10px;
+  padding-left: 10x;
+  font-size: 15px;
+  font-family: serif;
+}
+
+.f {
+  clear: left;
+  padding: 10px 30px 10px 30px;
+  background-color: #9966cc;
+  border: 3px solid white;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  overflow: hidden;
+}
+
+.f img {
+  width: 100%;
+}
+
+.f h2 {
+  font-size: 30px;
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
+
+.f p {
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+  font-family: serif;
+  border: 1px solid white;
+}
+
+.g{
+  padding: 10px;
+  overflow: hidden;
+}
+
+.g h2{
+  float: left;
+  font-family: sans-serif;
+  font-size: 30px;
+  color: white;
+  padding: 30px;
+  background-color: #9966cc;
+  margin: 10px 10px 5px 0;
+}
+
+.g #pfirst {
+  font-family: arial;
+  color: black;
+  font-size: 14px;
+}
+
+.g img {
+  float: right;
+  height: 150px;
+  width: 150px;
+  margin: 30px 30px 5px 10px;
+}
+
+.g #psecond {
+  padding: 30px;
+  background-color: #9966cc;
+  font-family: arial;
+  color: white;
+  font-size: 14px;
+  text-align: right;
+}
+
+.h h2 {
+  text-align: center;
+  padding: 10px 30px 10px 30px;
+  background-color: purple;
+  border: 2px solid white;
+  color: white;
+}
+
+.h img {
+  width: 100%
+}
+
+.h p {
+  font-family: arial;
+  text-align: center;
+  color: black;
+  font-size: 14px;
+}
+      
+#foot {
+  background-color: purple;
+  overflow: hidden;
+  bottom: 0;
+  margin: 0 -30px -30px -27px;
+}
+      
+#foot > h3 {
+  text-align: center;
+  color: white;
+  position: relative;
+  font-weight: bold;
+  font-size: 10px;
+  padding: 5px;
+}
+
+article {
+  margin-top: 30px;
+  border: 3px double purple;
+  padding: 3px 5px;  
+}
+
+article > h3{
+  padding: 30px 50px 30px 50px;
+  background-color: #9966cc;
+  color: white;
+  font-family: sans-serif;
+  font-size: 30px;
+  float: right;
+  margin: -6px -6px 0 10px;
+}
+
+#foot {
+  clear: right;
+  clear: left;
+  background-color: #9966cc;
+  bottom: 0;
+  margin: 0 -27px -7px -30px;
+  overflow: hidden;
+}
+
+#foot > h3 {
+  clear: right;
+  clear: left;
+  text-align: center;
+  color: white;
+  position: relative;
+  font-weight: bold;
+  font-size: 15px;
+}
