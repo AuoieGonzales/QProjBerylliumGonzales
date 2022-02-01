@@ -257,7 +257,6 @@ aside > div#sc > a:hover {
 
 #foot {
   clear: right;
-  clear: left;
   background-color: #a34100;
   bottom: 0;
   margin: 0 -28px -8px -30px;
@@ -266,7 +265,6 @@ aside > div#sc > a:hover {
 
 #foot > h3 {
   clear: right;
-  clear: left;
   text-align: center;
   color: white;
   position: relative;
