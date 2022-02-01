@@ -264,7 +264,7 @@ aside > div#sc > a:hover {
 }
 
 #foot > h3 {
-  text-align: center;
+  float: left;  
   color: white;
   position: relative;
   font-weight: bold;
